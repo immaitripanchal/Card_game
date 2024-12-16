@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Your Name" />
+		<meta name="description" content="Example of all HTML markup elements" />
+		<title>All HTML Markup Elements</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				margin: 20px;
+				line-height: 1.6;
+			}
+			header,
+			footer {
+				background-color: #f57a7a;
+				padding: 10px;
+				text-align: center;
+			}
+
+			table {
+				border-collapse: collapse;
+				width: 100%;
+				margin-top: 20px;
+			}
+			table,
+			th,
+			td {
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>HTML Markup Elements</h1>
+			<p>Explore all major HTML elements in a single document</p>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="#text-elements">Text</a></li>
+				<li><a href="#lists">Lists</a></li>
+				<li><a href="#tables">Tables</a></li>
+				<li><a href="#forms">Forms</a></li>
+				<li><a href="#media">Media</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section id="text-elements">
+				<h2>Text Elements</h2>
+				<p>
+					This is a paragraph demonstrating <strong>bold</strong>, <em>italic</em>, <u>underline</u>, and
+					<mark>highlighted</mark> text.
+				</p>
+				<blockquote>"This is a blockquote, often used for citing references."</blockquote>
+			</section>
+
+			<section id="lists">
+				<h2>Lists</h2>
+				<h3>Ordered List</h3>
+				<ol>
+					<li>First item</li>
+					<li>Second item</li>
+					<li>Third item</li>
+				</ol>
+				<h3>Unordered List</h3>
+				<ul>
+					<li>Bullet one</li>
+					<li>Bullet two</li>
+					<li>Bullet three</li>
+				</ul>
+				<h3>Description List</h3>
+				<dl>
+					<dt>HTML</dt>
+					<dd>HyperText Markup Language</dd>
+					<dt>CSS</dt>
+					<dd>Cascading Style Sheets</dd>
+				</dl>
+			</section>
+
+			<section id="tables">
+				<h2>Tables</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Age</th>
+							<th>Country</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>John Doe</td>
+							<td>25</td>
+							<td>USA</td>
+						</tr>
+						<tr>
+							<td>Jane Smith</td>
+							<td>30</td>
+							<td>Canada</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="forms">
+				<h2>Forms</h2>
+				<form action="#" method="post">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" /><br /><br />
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" /><br /><br />
+					<label for="message">Message:</label><br />
+					<textarea id="message" name="message"></textarea><br /><br />
+					<input type="checkbox" id="subscribe" name="subscribe" />
+					<label for="subscribe">Subscribe to newsletter</label><br />
+					<input type="radio" id="male" name="gender" value="male" />
+					<label for="male">Male</label><br />
+					<input type="radio" id="female" name="gender" value="female" />
+					<label for="female">Female</label><br />
+					<input type="submit" value="Submit" />
+				</form>
+			</section>
+
+			<section id="media">
+				<h2>Media Elements</h2>
+				<img src="https://via.placeholder.com/150" alt="Placeholder image" />
+				<figure>
+					<img src="https://via.placeholder.com/200" alt="Another image" />
+					<figcaption>Figure caption goes here.</figcaption>
+				</figure>
+				<video controls width="300">
+					<source src="sample.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
+				<audio controls>
+					<source src="sample.mp3" type="audio/mpeg" />
+					Your browser does not support the audio tag.
+				</audio>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2024 Your Name. All rights reserved.</p>
+		</footer>
+	</body>
+</html>
