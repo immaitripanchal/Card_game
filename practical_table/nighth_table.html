@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>table 9</title>
+	</head>
+
+	<body>
+		<table border="5" cellspacing="10" cellpadding="10" bordercolor="gold" width="50%">
+			<tr>
+				<th bgcolor="lightgreen">A green row</th>
+				<td bgcolor="yellow">this cell should be yellow,overriding the row color</td>
+				<td bgcolor="lightgreen">back to the row color</td>
+			</tr>
+			<tr>
+				<th bgcolor="blue">A blue row</th>
+				<td bgcolor="blue"></td>
+				<td bgcolor="blue" rowspan="2" align="center">this cell takes the color of the topmost row that is span</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="red" align="center">A red row</td>
+			</tr>
+		</table>
+	</body>
+</html>
